@@ -1,65 +1,35 @@
-colorful right click - found it on github somewhere
+/* Forward */
+#message-actions-forward, #message-forward {
+    color: lightcoral;
+}
+#message-actions-forward:hover, #message-forward:hover {
+    background-color: #d96e6e;
+    color: #fff;
+}
 
-#message-actions-pin, #message-pin, #message-unpin{
-    color: skyblue;
+/* Bookmark */
+#message-actions-bookmark, #message-bookmark {
+    color: mediumorchid;
 }
-#message-actions-pin:hover, #message-pin:hover, #message-unpin:hover {
-    background-color: #67a7c0;
+#message-actions-bookmark:hover, #message-bookmark:hover {
+    background-color: #b06cb0;
     color: #fff;
 }
-#message-actions-reply, #message-reply {
-    color: khaki;
+
+/* Apps */
+#message-actions-apps, #message-apps {
+    color: mediumslateblue;
 }
-#message-actions-reply:hover, #message-reply:hover {
-    background-color: #c5bb5d;
+#message-actions-apps:hover, #message-apps:hover {
+    background-color: #6b62d1;
     color: #fff;
 }
-#message-actions-thread, #message-thread {
-    color: #69c069;
+
+/* Copy Text */
+#message-actions-copy-text, #message-copy-text {
+    color: lightgreen;
 }
-#message-actions-thread:hover, #message-thread:hover {
-    background-color: #5dbd5d;
-    color: #fff;
-}
-#message-actions-mark-unread, #message-mark-unread {
-    color: plum;
-}
-#message-actions-mark-unread:hover, #message-mark-unread:hover {
-    background-color: #c27ec2;
-    color: #fff;
-}
-#message-actions-copy-link, #message-copy-link {
-    color: lightseagreen;
-}
-#message-actions-copy-link:hover, #message-copy-link:hover {
-    background-color: #199c96;
-    color: #fff;
-}
-#message-actions-tts, #message-tts{
-    color: var(--brand-experiment);
-}
-#message-actions-tts:hover, #message-tts:hover{
-    background-color: var(--brand-experiment);
-    color: #fff;
-}
-#message-actions-copy-id, #message-devmode-copy-id {
-    color: lightsalmon;
-}
-#message-actions-copy-id:hover #message-devmode-copy-id:hover{
-    background-color: lightsalmon;
-    color: #fff;
-}
-#message-edit, #message-actions-edit{
-    color: steelblue;
-}
-#message-edit:hover,  #message-actions-edit:hover{
-    background-color: steelblue;
-    color: #fff;
-}
-#message-add-reaction{
-    color: goldenrod;
-}
-#message-add-reaction:hover{
-    background-color: goldenrod;
+#message-actions-copy-text:hover, #message-copy-text:hover {
+    background-color: #66bb66;
     color: #fff;
 }
